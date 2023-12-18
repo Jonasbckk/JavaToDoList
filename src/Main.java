@@ -87,7 +87,7 @@ public class Main {
                 listModel.setElementAt(task.getDescription() + " - " + task.getStatus(), selectedIndex);
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Wählen Sie eine Aufgabe aus, um den Status zu ändern.\n(Klicke auf eine Aufgabe)");
+            JOptionPane.showMessageDialog(null, "Klicke auf eine Aufgabe, um den Status zu ändern.\n(Klicke auf eine Aufgabe)");
         }
     }
 
